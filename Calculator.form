@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="20" bottom="25" right="20"/>
+    <constraints>
+      <xy x="80" y="29" width="556" height="258"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ad5b0" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c4d24" class="javax.swing.JButton" binding="button13" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="3945e" class="javax.swing.JButton" binding="button14" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="×"/>
+        </properties>
+      </component>
+      <component id="42cb2" class="javax.swing.JButton" binding="button15" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="b6b9b" class="javax.swing.JButton" binding="button16" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="cc548" class="javax.swing.JButton" binding="button17" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="925ea" class="javax.swing.JButton" binding="Button4">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="fa9eb" class="javax.swing.JButton" binding="Button3">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="3426a" class="javax.swing.JButton" binding="Button2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="dfb91" class="javax.swing.JButton" binding="Button1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <grid id="ce8b3" class="javax.swing.JMenuBar" binding="TrigMenu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <toolTipText value="Trigonometry"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b174a" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Tahoma" size="14" style="1"/>
+              <text value="Trignometry"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dc37f" class="javax.swing.JMenuItem" binding="Sine">
+                <constraints/>
+                <properties>
+                  <text value="Sin"/>
+                </properties>
+              </component>
+              <component id="d94d9" class="javax.swing.JMenuItem" binding="Tan">
+                <constraints/>
+                <properties>
+                  <text value="Tan"/>
+                </properties>
+              </component>
+              <component id="42314" class="javax.swing.JMenuItem" binding="Cosine">
+                <constraints/>
+                <properties>
+                  <text value="Cos"/>
+                </properties>
+              </component>
+              <component id="8f50" class="javax.swing.JMenuItem" binding="Cosecant">
+                <constraints/>
+                <properties>
+                  <text value=" csc"/>
+                </properties>
+              </component>
+              <component id="241d2" class="javax.swing.JMenuItem" binding="Secant">
+                <constraints/>
+                <properties>
+                  <text value="sec"/>
+                </properties>
+              </component>
+              <component id="6fbaa" class="javax.swing.JMenuItem" binding="Cotangent">
+                <constraints/>
+                <properties>
+                  <text value="cot"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="75220" class="javax.swing.JButton" binding="Button8">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d1c94" class="javax.swing.JButton" binding="Button12">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="d1fff" class="javax.swing.JButton" binding="Button7">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="3a9a6" class="javax.swing.JButton" binding="Button11">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="8fca0" class="javax.swing.JButton" binding="Button10">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="6ade6" class="javax.swing.JButton" binding="Button6">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="ff91d" class="javax.swing.JButton" binding="Button5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="7ee86" class="javax.swing.JButton" binding="Button9">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Nova" size="14" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <grid id="cdbd0" class="javax.swing.JMenuBar" binding="gMenu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="f0048" class="javax.swing.JMenu" binding="gateMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Tahoma" size="14" style="1"/>
+              <popupMenuVisible value="false"/>
+              <text value="Bitwise"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5cab5" class="javax.swing.JMenuItem" binding="AND">
+                <constraints/>
+                <properties>
+                  <text value="AND"/>
+                </properties>
+              </component>
+              <component id="b48a2" class="javax.swing.JMenuItem" binding="NAND">
+                <constraints/>
+                <properties>
+                  <text value="NAND"/>
+                </properties>
+              </component>
+              <component id="53752" class="javax.swing.JMenuItem" binding="OR">
+                <constraints/>
+                <properties>
+                  <text value="OR"/>
+                </properties>
+              </component>
+              <component id="21770" class="javax.swing.JMenuItem" binding="NOR">
+                <constraints/>
+                <properties>
+                  <text value="NOR"/>
+                </properties>
+              </component>
+              <component id="fe1ec" class="javax.swing.JMenuItem" binding="NOT">
+                <constraints/>
+                <properties>
+                  <text value="NOT"/>
+                </properties>
+              </component>
+              <component id="cd182" class="javax.swing.JMenuItem" binding="XOR">
+                <constraints/>
+                <properties>
+                  <text value="XOR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8c143" class="javax.swing.JMenuBar" binding="lMenu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="885b5" class="javax.swing.JMenu" binding="logicMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Tahoma" size="14" style="1"/>
+              <popupMenuVisible value="false"/>
+              <text value="Programmer"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9f013" class="javax.swing.JMenuItem" binding="Decimal">
+                <constraints/>
+                <properties>
+                  <text value="DEC"/>
+                </properties>
+              </component>
+              <component id="e7100" class="javax.swing.JMenuItem" binding="Binary">
+                <constraints/>
+                <properties>
+                  <text value="Bin"/>
+                </properties>
+              </component>
+              <component id="ffe0f" class="javax.swing.JMenuItem" binding="Hexadecimal">
+                <constraints/>
+                <properties>
+                  <text value="Hex"/>
+                </properties>
+              </component>
+              <component id="dbafa" class="javax.swing.JMenuItem" binding="Octal">
+                <constraints/>
+                <properties>
+                  <text value="Oct"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
